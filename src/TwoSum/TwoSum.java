@@ -2,7 +2,7 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3 };
         int target = 3;
-        System.out.println(twoSum(nums, target).toString());
+        System.out.println("the sum is " + twoSum(nums, target).toString());
     }
 
     public static int[] twoSum(int[] nums, int target) {
